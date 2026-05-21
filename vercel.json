@@ -1,10 +1,6 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "apps/web/.next",
   "buildCommand": "pnpm turbo build --filter=mentha-web...",
   "installCommand": "pnpm install",
-  "framework": "nextjs",
-  "outputDirectory": "apps/mentha-web/.next",
-  "env": {
-    "NEXT_PUBLIC_DEMO_MODE": "true"
-  }
+  "framework": "nextjs"
 }
