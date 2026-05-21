@@ -1,3 +1,6 @@
 {
+  "outputDirectory": "apps/web/.next",
+  "buildCommand": "pnpm turbo build --filter=mentha-web...",
+  "installCommand": "pnpm install",
   "framework": "nextjs"
 }
