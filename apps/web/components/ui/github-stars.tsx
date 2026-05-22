@@ -55,9 +55,9 @@ export const GithubStars: React.FC = () => {
             href={REPO_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Open Mentha on GitHub"
+            aria-label="Open AEOAI.digital on GitHub"
             className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-mentha-forest/20 bg-mentha-beige text-mentha-forest shadow-sm transition-all hover:border-mentha-mint hover:text-mentha-mint dark:border-mentha-beige/20 dark:bg-mentha-forest dark:text-mentha-beige dark:hover:border-mentha-mint group"
-            title="Open Mentha on GitHub"
+            title="Open AEOAI.digital on GitHub"
         >
             <Github size={14} className="text-current group-hover:scale-110 transition-transform" />
             <span className="font-mono text-[10px] uppercase tracking-wider font-semibold">

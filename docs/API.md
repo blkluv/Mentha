@@ -1,6 +1,6 @@
 # Mentha API Reference
 
-Complete API documentation for the Mentha Answer Engine Optimization platform.
+Complete API documentation for the AEOAI.digital Answer Engine Optimization platform.
 
 **Base URL:** `/api/v1`
 

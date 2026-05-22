@@ -67,7 +67,7 @@ export default function LoginPage() {
                     <div className="mb-12">
                         <Link href="/" className="inline-block mb-8">
                             <span className="font-serif text-3xl text-mentha-forest dark:text-mentha-beige">
-                                Mentha<span className="text-mentha-mint">.</span>
+                                AEOAI<span className="text-mentha-mint">.</span>digital
                             </span>
                         </Link>
                         <h1 className="text-4xl font-serif text-mentha-forest dark:text-mentha-beige mb-2">

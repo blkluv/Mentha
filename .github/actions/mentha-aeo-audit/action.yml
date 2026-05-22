@@ -1,8 +1,8 @@
-name: Mentha AEO Audit
-description: Generate and audit AI-readable files for Mentha-compatible repositories.
+name: AEOAI.digital AEO Audit
+description: Generate and audit AI-readable files for AEOAI.digital-compatible repositories.
 inputs:
   api-url:
-    description: Mentha API base URL, for example https://api.example.com
+    description: AEOAI.digital API base URL, for example https://api.example.com
     required: true
   site-url:
     description: Site URL to score for AI answer readiness.

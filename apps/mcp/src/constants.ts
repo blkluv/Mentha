@@ -7,7 +7,7 @@ Returns: formatted Markdown optimized for LLM consumption.`,
 Supports llms.txt, llms-full.txt, ai.txt, CLAUDE.md, schema.json,
 robots-patch.txt, faq-blocks.html, citation-anchors.html, and sitemap-ai.xml.`,
 
-    listProjects: `List all Mentha projects/brands being monitored.
+    listProjects: `List all AEOAI.digital projects/brands being monitored.
 Use this to discover available projects before running other operations.`,
 
     geoAudit: `Full GEO (Generative Engine Optimization) audit for a URL.

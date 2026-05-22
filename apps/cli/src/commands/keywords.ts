@@ -34,7 +34,7 @@ keywordsCommand
                 if (keywords.length === 0) {
                     console.log(
                         chalk.yellow(
-                            '\nNo keywords found. Create one with: mentha keywords create\n',
+                            '\nNo keywords found. Create one with: AEOAI.digital keywords create\n',
                         ),
                     );
                 } else {

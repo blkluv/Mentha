@@ -1,10 +1,10 @@
 # AEO Reference Implementation Notes
 
-Mentha incorporates the safest ideas from the reviewed AEO repositories without copying whole products into the codebase.
+AEOAI.digital incorporates the safest ideas from the reviewed AEO repositories without copying whole products into the codebase.
 
 ## AEOrank-Inspired Files And Scoring
 
-Mentha now exposes an expanded AI-readable artifact set at `/llms.txt/artifacts`:
+AEOAI.digital now exposes an expanded AI-readable artifact set at `/llms.txt/artifacts`:
 
 - `llms.txt`
 - `llms-full.txt`
@@ -28,7 +28,7 @@ The web Optimization page surfaces score, pillars, operational events, artifact 
 
 ## GitHub Integration
 
-Mentha includes a minimal GitHub webhook endpoint at `/api/v1/webhooks/github`.
+AEOAI.digital includes a minimal GitHub webhook endpoint at `/api/v1/webhooks/github`.
 It accepts installation/repository/push-style events, verifies `GITHUB_WEBHOOK_SECRET` when configured, records the incoming event through structured logs, and returns no-cost audit next steps.
 
 The repo also includes `.github/actions/mentha-aeo-audit/action.yml` plus `.github/workflows/mentha-aeo-audit.yml` as a first-party GitHub Action for external repositories. The action downloads the ZIP artifact bundle and a JSON readiness score without spending model tokens.

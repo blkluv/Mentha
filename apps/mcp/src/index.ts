@@ -30,7 +30,7 @@ import {
 } from './tools';
 
 const server = new McpServer({
-    name: 'mentha',
+    name: 'aeoai-digital-mcp-server',
     version: '1.0.0',
 });
 
@@ -134,7 +134,7 @@ server.registerResource(
 async function main() {
     const transport = new StdioServerTransport();
     await server.connect(transport);
-    console.error('Mentha MCP Server running on stdio');
+    console.error('AEOAI.digital MCP Server running on stdio');
 }
 
 main().catch(console.error);

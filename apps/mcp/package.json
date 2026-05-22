@@ -1,7 +1,7 @@
 {
-  "name": "mentha-mcp-server",
+  "name": "aeoai-digital-mcp-server",
   "version": "1.0.0",
-  "description": "Model Context Protocol Server for Mentha",
+  "description": "Model Context Protocol Server for AEOAI.digital",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {

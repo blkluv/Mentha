@@ -1,7 +1,7 @@
 {
   "name": "mentha-cli",
   "version": "1.0.0",
-  "description": "Interactive CLI for Mentha AEO/GEO Intelligence Platform",
+  "description": "Interactive CLI for AEOAI.digital AEO/GEO Intelligence Platform",
   "type": "module",
   "main": "src/cli.ts",
   "bin": {

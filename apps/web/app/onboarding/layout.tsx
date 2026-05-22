@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import { ProjectProvider } from '@/context/ProjectContext';
 
 export const metadata: Metadata = {
-    title: 'Onboarding | Mentha',
-    description: 'Get started with Mentha AEO Platform',
+    title: 'Onboarding | AEOAI.digital',
+    description: 'Get started with AEOAI.digital AEO Platform',
 };
 
 export default function OnboardingLayout({ children }: { children: React.ReactNode }) {
@@ -14,7 +14,7 @@ export default function OnboardingLayout({ children }: { children: React.ReactNo
                 <header className="p-6">
                     <div className="flex items-center gap-2">
                         <span className="font-serif text-2xl text-mentha-forest dark:text-mentha-beige">
-                            Mentha<span className="text-mentha-mint">.</span>
+                            AEOAI<span className="text-mentha-mint">.</span>digital
                         </span>
                     </div>
                 </header>

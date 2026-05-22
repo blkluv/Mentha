@@ -36,7 +36,7 @@ const Methodology: React.FC = () => {
                         <React.Fragment key={part}>
                             {part}
                             {i < arr.length - 1 && (
-                                <span className="italic text-mentha-mint">Mentha</span>
+                                <span className="italic text-mentha-mint">AEOAI.digital</span>
                             )}
                         </React.Fragment>
                     ))}

@@ -12,13 +12,13 @@ export class MockSearchProvider implements ISearchProvider {
         const brandMatch = query.match(
             /(?:marca|brand|domain|dominio|sobre|about)\s*:?\s*["“]?([^"\n.]+)["”]?/i,
         );
-        const brand = brandMatch?.[1]?.trim() || 'Mentha QA Brand';
+        const brand = brandMatch?.[1]?.trim() || 'AEOAI.digital QA Brand';
 
         return {
             content: [
                 `Mock QA response for ${brand}.`,
                 `The brand is visible for the query: ${query.slice(0, 160)}.`,
-                'Mentha QA mode avoids external model calls and returns deterministic evidence.',
+                'AEOAI.digital QA mode avoids external model calls and returns deterministic evidence.',
                 '[QA citation](https://example.com/qa-source)',
             ].join('\n\n'),
             citations: [

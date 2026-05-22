@@ -4,6 +4,8 @@ import type { Metadata } from 'next';
 import { Instrument_Serif, Inter, Space_Mono } from 'next/font/google';
 import Script from 'next/script';
 
+import { ClerkProvider } from '@clerk/nextjs';
+
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { ThemeSync } from '@/components/ThemeSync';
 
@@ -31,10 +33,12 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-    title: 'Mentha | AEO & GEO Agency',
+    metadataBase: new URL(
+        process.env.NEXT_PUBLIC_SITE_URL || 'https://aeoai.digital'
+    ),
+    title: 'AEOAI.digital | AEO & GEO Agency',
     description:
-        "Master Answer Engine Optimization (AEO) with Mentha. Understand your brand's visibility in AI-generated answers, LLMs, and the future of search.",
+        "Master Answer Engine Optimization (AEO) with AEOAI.digital. Understand your brand's visibility in AI-generated answers, LLMs, and the future of search.",
     icons: {
         icon: '/favicon.svg',
     },
@@ -48,17 +52,17 @@ export const metadata: Metadata = {
         'Open Source Analytics',
     ],
     openGraph: {
-        title: 'Mentha | AEO & GEO Agency',
+        title: 'AEOAI.digital | AEO & GEO Agency',
         description:
             'The platform for tracking and optimizing your presence in the age of AI search.',
-        url: 'https://mentha.ai',
-        siteName: 'Mentha',
+        url: 'https://aeoai.digital',
+        siteName: 'AEOAI.digital',
         images: [
             {
                 url: '/pexels-codioful-7134995.jpg',
                 width: 1200,
                 height: 630,
-                alt: 'Mentha AEO Analytics Dashboard Preview',
+                alt: 'AEOAI.digital AEO Analytics Dashboard Preview',
             },
         ],
         locale: 'en_US',
@@ -66,7 +70,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Mentha | AEO Intelligence',
+        title: 'AEOAI.digital | AEO Intelligence',
         description: 'Optimize your brand for AI-generated answers.',
         images: ['/pexels-codioful-7134995.jpg'],
     },
@@ -82,35 +86,39 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" suppressHydrationWarning>
-            <head>
-                {process.env.NODE_ENV === 'development' && (
-                    <Script
-                        src="https://unpkg.com/react-scan/dist/auto.global.js"
-                        strategy="lazyOnload"
-                    />
-                )}
-            </head>
-            <body
-                className={`${instrumentSerif.variable} ${inter.variable} ${spaceMono.variable} font-sans`}
-                suppressHydrationWarning
-            >
-                <ThemeProvider
-                    attribute="class"
-                    defaultTheme="light"
-                    enableSystem={false}
-                    storageKey="mentha_theme"
-                    disableTransitionOnChange={false}
-                    forcedTheme={undefined}
+        <ClerkProvider>
+            <html lang="en" suppressHydrationWarning>
+                <head>
+                    {process.env.NODE_ENV === 'development' && (
+                        <Script
+                            src="https://unpkg.com/react-scan/dist/auto.global.js"
+                            strategy="lazyOnload"
+                        />
+                    )}
+                </head>
+
+                <body
+                    className={`${instrumentSerif.variable} ${inter.variable} ${spaceMono.variable} font-sans`}
+                    suppressHydrationWarning
                 >
-                    <ThemeSync>
-                        <div className="min-h-screen bg-mentha-beige text-mentha-forest dark:bg-mentha-dark dark:text-mentha-beige transition-colors duration-300">
-                            {children}
-                        </div>
-                        <div className="bg-noise" />
-                    </ThemeSync>
-                </ThemeProvider>
-            </body>
-        </html>
+                    <ThemeProvider
+                        attribute="class"
+                        defaultTheme="light"
+                        enableSystem={false}
+                        storageKey="mentha_theme"
+                        disableTransitionOnChange={false}
+                        forcedTheme={undefined}
+                    >
+                        <ThemeSync>
+                            <div className="min-h-screen bg-mentha-beige text-mentha-forest dark:bg-mentha-dark dark:text-mentha-beige transition-colors duration-300">
+                                {children}
+                            </div>
+
+                            <div className="bg-noise" />
+                        </ThemeSync>
+                    </ThemeProvider>
+                </body>
+            </html>
+        </ClerkProvider>
     );
 }

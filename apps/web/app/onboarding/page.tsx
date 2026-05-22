@@ -187,7 +187,7 @@ export default function OnboardingPage() {
             <div className="text-center mb-10">
                 <div className="mb-4">
                     <span className="font-serif text-4xl text-mentha-forest dark:text-mentha-beige">
-                        Welcome to <span className="text-mentha-mint">Mentha</span>
+                        Welcome to <span className="text-mentha-mint">AEOAI.digital</span>
                         <span className="text-mentha-mint">.</span>
                     </span>
                 </div>
@@ -213,7 +213,7 @@ export default function OnboardingPage() {
                             type="text"
                             value={domain}
                             onChange={(e) => setDomain(e.target.value)}
-                            placeholder="eg: www.mentha.ai"
+                            placeholder="eg: www.aeai.digital"
                             className="w-full bg-transparent border-b border-mentha-forest/20 dark:border-mentha-beige/20 p-4 font-serif text-xl focus:outline-none focus:border-mentha-mint transition-colors text-mentha-forest dark:text-mentha-beige placeholder-mentha-forest/20 dark:placeholder-mentha-beige/20"
                             required
                         />
@@ -368,7 +368,7 @@ export default function OnboardingPage() {
                                 Launching provider scans
                             </p>
                             <p>
-                                Mentha is creating your project, saving the prompts, and starting
+                                AEOAI.digital is creating your project, saving the prompts, and starting
                                 the first run across Perplexity, ChatGPT, Gemini, and Claude.
                             </p>
                         </div>
@@ -391,7 +391,7 @@ export default function OnboardingPage() {
                     <div>
                         <h3 className="font-serif text-2xl mb-2">Scanning Your Brand</h3>
                         <p className="text-sm text-mentha-forest/60 dark:text-mentha-beige/60 max-w-md mx-auto">
-                            Mentha is asking every tracked prompt across Perplexity, ChatGPT,
+                            AEOAI.digital is asking every tracked prompt across Perplexity, ChatGPT,
                             Gemini, and Claude. This is a live browser workflow and can take a few
                             minutes while each provider responds.
                         </p>

@@ -80,14 +80,14 @@ export default function RegisterPage() {
                     <div className="mb-12">
                         <Link href="/" className="inline-block mb-8">
                             <span className="font-serif text-3xl text-mentha-forest dark:text-mentha-beige">
-                                Mentha<span className="text-mentha-mint">.</span>
+                                AEOAI<span className="text-mentha-mint">.</span>digital
                             </span>
                         </Link>
                         <h1 className="text-4xl font-serif text-mentha-forest dark:text-mentha-beige mb-2">
                             Create Account.
                         </h1>
                         <p className="text-mentha-forest/60 dark:text-mentha-beige/60 font-mono text-xs uppercase tracking-widest">
-                            Start your 14-day AEO Pro Trial
+                            Start your 14-day AEOAI.digital Pro Trial
                         </p>
                     </div>
 

@@ -186,7 +186,7 @@ export function Sidebar() {
                                 </>
                             ) : (
                                 <>
-                                    Mentha<span className="text-mentha-mint text-3xl">.</span>
+                                    AEOAI<span className="text-mentha-mint text-3xl">.</span>digital
                                 </>
                             )}
                         </span>

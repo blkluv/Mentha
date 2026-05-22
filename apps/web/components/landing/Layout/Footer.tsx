@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
                     </div>
                     <div className="pt-4 space-y-2">
                         <p className="font-mono text-[10px] text-mentha-forest/60 dark:text-mentha-beige/60">
-                            Mentha, Inc. © 2026
+                            AEOAI.digital, Inc. © 2026
                         </p>
                         <div className="flex items-center gap-4 pt-2">
                             <button
@@ -186,11 +186,11 @@ const Footer: React.FC = () => {
 
             <div className="mt-24 pb-12 relative overflow-hidden">
                 <h1 className="text-[20vw] leading-[0.8] font-serif tracking-tighter text-center w-full select-none pointer-events-none text-mentha-forest dark:text-mentha-beige opacity-[0.03] dark:opacity-[0.05]">
-                    MENTHA
+                    AEOAI.digital
                 </h1>
                 <div className="absolute bottom-0 left-0 w-full text-center pb-4">
                     <p className="font-mono text-[9px] tracking-widest text-mentha-forest/40 dark:text-mentha-beige/40">
-                        DESIGNED BY BEENRUUU • DEVELOPED FOR THE FUTURE OF SEARCH
+                        DESIGNED BY WIZARD OF HAHZ • DEVELOPED FOR THE FUTURE OF SEARCH
                     </p>
                 </div>
             </div>

@@ -45,13 +45,13 @@ function statusCopy(status: ReportStatus | null) {
     if (status.status === 'collecting') {
         return {
             title: 'First AEO/GEO report is being prepared',
-            body: `Mentha is asking every prompt across the configured providers. This can take up to ${status.etaHours} hours; results will unlock as the batch finishes.`,
+            body: `AEOAI.digital is asking every prompt across the configured providers. This can take up to ${status.etaHours} hours; results will unlock as the batch finishes.`,
         };
     }
     if (status.status === 'needs_connection') {
         return {
             title: 'Connect provider accounts to continue',
-            body: 'Some providers require login or human verification before Mentha can collect reliable browser results.',
+            body: 'Some providers require login or human verification before AEOAI.digital can collect reliable browser results.',
         };
     }
     if (status.status === 'ready_partial') {

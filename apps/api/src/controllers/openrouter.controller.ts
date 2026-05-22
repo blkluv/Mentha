@@ -54,8 +54,8 @@ export const OpenRouterController = {
                 headers: {
                     Authorization: `Bearer ${env.OPENROUTER_API_KEY}`,
                     'Content-Type': 'application/json',
-                    'HTTP-Referer': 'https://mentha.saas',
-                    'X-Title': 'Mentha Platform',
+                    'HTTP-Referer': 'https://aeoai.digital',
+                    'X-Title': 'AEOAI.digital Platform',
                 },
                 body: JSON.stringify(payload),
             });

@@ -1,10 +1,9 @@
-# Mentha — Open Source Answer Engine Optimization (AEO) Platform
+# AEOAI.digital — Open Source Answer Engine Optimization (AEO) Platform
 
 ![Mentha Hero](./assets/try-mentha-now.webp)
 
-**Track, Analyze, and Optimize your brand visibility across ChatGPT, Perplexity, Gemini, and Claude.** Mentha is the first open-source Answer Engine Optimization (AEO) platform that uses real browser automation to capture how AI engines see your brand, then evaluates results with an LLM-as-Judge system.
+**Track, Analyze, and Optimize your brand visibility across ChatGPT, Perplexity, Gemini, and Claude.** AEOAI.digital is the first open-source Answer Engine Optimization (AEO) platform that uses real browser automation to capture how AI engines see your brand, then evaluates results with an LLM-as-Judge system.
 
-[![GitHub Stars](https://img.shields.io/github/stars/beenruuu/mentha?style=social)](https://github.com/beenruuu/mentha)
 [![Version](https://img.shields.io/badge/Version-1.0.0-mentha?color=38B2AC)](https://github.com/beenruuu/mentha/releases)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/beenruuu/mentha)
 [![CI](https://github.com/beenruuu/mentha/actions/workflows/mentha-aeo-audit.yml/badge.svg)](https://github.com/beenruuu/mentha/actions/workflows/mentha-aeo-audit.yml)
@@ -18,13 +17,13 @@
 
 > **Answer Engine Optimization** is the practice of optimizing your brand's digital presence so AI chatbots and answer engines — like ChatGPT, Perplexity, Google AI Overviews, Gemini, and Claude — recommend your brand accurately, positively, and frequently when users ask questions about your industry.
 
-Traditional SEO optimized for Google search results. AEO optimizes for the AI-generated answers that 500M+ users now consume daily. Mentha is the first production-ready, open-source platform purpose-built for this new paradigm.
+Traditional SEO optimized for Google search results. AEO optimizes for the AI-generated answers that 500M+ users now consume daily. AEOAI.digital is the first production-ready, open-source platform purpose-built for this new paradigm.
 
 ---
 
 ## Key Takeaways
 
-| Area | What Mentha Does |
+| Area | What AEOAI.digital Does |
 |------|-----------------|
 | **AI Brand Monitoring** | Automatically tracks how ChatGPT, Perplexity, Gemini, and Claude mention your brand |
 | **Share of Voice (SOV)** | Measures your brand visibility vs competitors across all AI engines |
@@ -35,13 +34,13 @@ Traditional SEO optimized for Google search results. AEO optimizes for the AI-ge
 
 ---
 
-## Why Mentha?
+## Why AEOAI.digital?
 
 ### The Problem
 Every day, millions of users ask AI engines questions like "What's the best [your product]?" or "Top [your industry] tools." If your brand isn't mentioned — or worse, is mentioned negatively — you're losing trust, traffic, and revenue. Traditional SEO tools can't help because they're built for crawlers, not for conversational AI.
 
 ### The Solution
-Mentha bridges this gap with a complete AEO workflow:
+AEOAI.digital bridges this gap with a complete AEO workflow:
 
 1. **Capture** — Uses real browser automation (Camoufox + Playwright) to navigate AI engine web UIs, submit your keywords, and capture the exact Markdown response as a real user would see it
 2. **Evaluate** — An LLM-as-Judge (via OpenRouter) analyzes each response for brand visibility, sentiment, competitor mentions, hallucination detection, and entity extraction
@@ -153,7 +152,7 @@ Backend Pipeline:
 
 ### Scan Execution Mode
 
-Mentha supports two scan execution modes controlled by `MENTHA_SCAN_EXECUTION_MODE`:
+AEOAI.digital supports two scan execution modes controlled by `MENTHA_SCAN_EXECUTION_MODE`:
 
 | Mode | Description | Best For |
 |------|-------------|----------|

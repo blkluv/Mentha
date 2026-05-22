@@ -21,7 +21,7 @@ const program = new Command();
 
 program
     .name('mentha')
-    .description('🌿 Mentha CLI - AEO/GEO Intelligence Platform')
+    .description('🌿 MentAEOAI.digital CLI - AEO/GEO Intelligence Platform')
     .version('1.0.0');
 
 program

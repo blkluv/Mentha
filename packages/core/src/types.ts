@@ -5,7 +5,7 @@ export interface MenthaClientConfig {
     /**
      * Base URL of the API server
      * @example 'http://localhost:3000'
-     * @example 'https://api.mentha.example.com'
+     * @example 'https://api.aeoai.digital'
      */
     baseUrl: string;
 

@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React from 'react';
 
 import { Theme } from '@/components/types';
-import { GithubStars } from '@/components/ui/github-stars';
 import { useTranslations } from '@/lib/i18n';
 
 interface NavbarProps {
@@ -29,7 +28,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, isDemo }) => {
                 {/* Logo */}
                 <div className="flex-shrink-0">
                     <Link href="/" className="font-serif text-3xl tracking-tight">
-                        Mentha<span className="text-mentha-mint text-4xl">.</span>
+                        AEOAI<span className="text-mentha-mint text-4xl">.</span>digital
                     </Link>
                 </div>
 
@@ -48,8 +47,6 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, isDemo }) => {
 
                 {/* Actions */}
                 <div className="hidden md:flex items-center gap-x-6">
-                    <GithubStars />
-
                     <button
                         type="button"
                         onClick={toggleTheme}
@@ -78,7 +75,6 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, isDemo }) => {
 
                 {/* Mobile Menu Button */}
                 <div className="flex items-center gap-4 md:hidden">
-                    <GithubStars />
                     <button type="button" onClick={() => setIsOpen(!isOpen)}>
                         {isOpen ? <X size={24} /> : <Menu size={24} />}
                     </button>

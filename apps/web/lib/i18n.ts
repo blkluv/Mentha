@@ -4,7 +4,7 @@ import React, { createContext, use, useCallback, useEffect, useState } from 'rea
 
 const en = {
     // Hero
-    heroTag: "[ Est. 2026 — Europe's First AEO Firm ]",
+    heroTag: "[ Est. 2026 — Atlanta's First AEO Firm ]",
     heroTitle: 'Traditional SEO is',
     heroTitleDead: 'dead',
     heroTitleSuffix: '. Your audience now',
@@ -44,7 +44,7 @@ const en = {
     service3Metric: 'AUTHORITY SCORE',
 
     // Methodology
-    methodologyTitle: 'The Mentha Protocol.',
+    methodologyTitle: 'The AEOAI.digital Protocol.',
     methodologyTag: '[ SYSTEM ARCHITECTURE ]',
     step1Title: 'Semantic Dissection',
     step1Desc:
@@ -108,7 +108,7 @@ const en = {
     footerPromptDiscovery: 'Prompt Discovery',
     footerInsights: 'Insights',
     footerSentimentAnalysis: 'Sentiment Analysis',
-    footerMenthaMCP: 'Mentha MCP',
+    footerMenthaMCP: 'AEOAI.digital MCP',
     footerSEOManagers: 'SEO Managers',
     footerInHouseMarketers: 'In-house Marketers',
     footerAgencies: 'Agencies',
@@ -169,20 +169,20 @@ const en = {
     integrationsTitleHighlight: 'AI Ecosystem',
     integrationsTitleSuffix: 'seamlessly.',
     integrationsDescription:
-        'Mentha integrates with all major AI search engines and LLMs to track where your brand appears.',
+        'AEOAI.digital integrates with all major AI search engines and LLMs to track where your brand appears.',
     faqsTitle: 'Questions?',
     faqQuestion1: 'What is AEO vs SEO?',
     faqAnswer1:
         'Answer Engine Optimization (AEO) focuses on optimizing for direct answers provided by AI models like ChatGPT and Perplexity, whereas SEO focuses on ranking blue links on traditional search engines like Google.',
-    faqQuestion2: 'How does Mentha track my brand?',
+    faqQuestion2: 'How does AEOAI.digital track my brand?',
     faqAnswer2:
-        'Mentha simulates user queries across multiple AI models in real-time to detect if, how, and when your brand is cited as a source or recommendation.',
+        'AEOAI.digital simulates user queries across multiple AI models in real-time to detect if, how, and when your brand is cited as a source or recommendation.',
     faqQuestion3: 'Do I need to install anything on my site?',
     faqAnswer3:
-        'No. Mentha is an external analytics tool. We analyze the AI platforms directly, so there is no need to add scripts or code to your website.',
+        'No. AEOAI.digital is an external analytics tool. We analyze the AI platforms directly, so there is no need to add scripts or code to your website.',
     faqQuestion4: 'Can I track my competitors?',
     faqAnswer4:
-        'Yes. Mentha allows you to monitor how AI engines perceive your competitors compared to your brand, giving you a share-of-voice metric.',
+        'Yes. AEOAI.digital allows you to monitor how AI engines perceive your competitors compared to your brand, giving you a share-of-voice metric.',
     faqQuestion5: 'Is my data private?',
     faqAnswer5:
         'Absolutely. We do not share your project data. Our analysis is performed privately and securely.',
@@ -234,7 +234,7 @@ const es = {
     service3Metric: 'PUNTUACIÓN DE AUTORIDAD',
 
     // Methodology
-    methodologyTitle: 'El Protocolo Mentha.',
+    methodologyTitle: 'El Protocolo AEOAI.digital.',
     methodologyTag: '[ ARQUITECTURA DEL SISTEMA ]',
     step1Title: 'Disección Semántica',
     step1Desc:
@@ -299,7 +299,7 @@ const es = {
     footerPromptDiscovery: 'Descubrimiento de Prompts',
     footerInsights: 'Insights',
     footerSentimentAnalysis: 'Análisis de Sentimiento',
-    footerMenthaMCP: 'Mentha MCP',
+    footerMenthaMCP: 'AEOAI.digital MCP',
     footerSEOManagers: 'Responsables de SEO',
     footerInHouseMarketers: 'Marketing Interno',
     footerAgencies: 'Agencias',
@@ -360,20 +360,20 @@ const es = {
     integrationsTitleHighlight: 'Ecosistema AI',
     integrationsTitleSuffix: 'sin fricciones.',
     integrationsDescription:
-        'Mentha se integra con los principales motores de búsqueda AI y LLMs para rastrear dónde aparece tu marca.',
+        'AEOAI.digital se integra con los principales motores de búsqueda AI y LLMs para rastrear dónde aparece tu marca.',
     faqsTitle: '¿Preguntas?',
     faqQuestion1: '¿Qué es AEO vs SEO?',
     faqAnswer1:
         'Answer Engine Optimization (AEO) se enfoca en optimizar para respuestas directas de modelos IA como ChatGPT y Perplexity, mientras que el SEO se enfoca en el ranking de enlaces en buscadores tradicionales como Google.',
-    faqQuestion2: '¿Cómo rastrea Mentha mi marca?',
+    faqQuestion2: '¿Cómo rastrea AEOAI.digital mi marca?',
     faqAnswer2:
-        'Mentha simula consultas de usuario en múltiples modelos IA en tiempo real para detectar si tu marca es citada como fuente o recomendación.',
+        'AEOAI.digital simula consultas de usuario en múltiples modelos IA en tiempo real para detectar si tu marca es citada como fuente o recomendación.',
     faqQuestion3: '¿Necesito instalar algo en mi sitio?',
     faqAnswer3:
-        'No. Mentha es una herramienta externa. Analizamos las plataformas IA directamente, sin necesidad de añadir código a tu web.',
+        'No. AEOAI.digital es una herramienta externa. Analizamos las plataformas IA directamente, sin necesidad de añadir código a tu web.',
     faqQuestion4: '¿Puedo rastrear a mis competidores?',
     faqAnswer4:
-        'Sí. Mentha te permite monitorizar cómo perciben los motores IA a tus competidores frente a tu marca, dándote una métrica de Share of Voice.',
+        'Sí. AEOAI.digital te permite monitorizar cómo perciben los motores IA a tus competidores frente a tu marca, dándote una métrica de Share of Voice.',
     faqQuestion5: '¿Son mis datos privados?',
     faqAnswer5:
         'Absolutamente. No compartimos los datos de tu proyecto. Nuestro análisis se realiza de forma privada y segura.',

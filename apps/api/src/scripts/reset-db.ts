@@ -77,7 +77,7 @@ async function resetAll() {
 
     console.log('✅ All remaining users updated with 5000 credits.');
     console.log('');
-    console.log('👉 Register a new account at http://localhost:3000/register');
+    console.log('👉 Register a new account at https://aeoai.digital/register');
     console.log('   New accounts will automatically get admin/pro/5000 credits.');
 
     process.exit(0);

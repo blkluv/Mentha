@@ -1,12 +1,12 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "Mentha Intelligence API",
+    "title": "AEOAI.digital Intelligence API",
     "description": "AEO/GEO Platform for Brand Cognition Engineering. Use this API when the user wants to: (1) Monitor how their brand appears in AI-generated responses, (2) Optimize their brand's visibility in ChatGPT, Perplexity, and other AI assistants, (3) Manage their Knowledge Graph for semantic SEO.",
     "version": "1.0.0",
     "contact": {
-      "name": "Mentha Support",
-      "url": "https://mentha.dev"
+      "name": "AEOAI.digital Support",
+      "url": "https://aeoai.digital"
     }
   },
   "servers": [
